@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.hero-video {
+    width: 100%;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-heading {
+    color: white;
+    font-size: 4rem;
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.sub-heading {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.button-heading {
+    position: absolute;
+    right: 47%;
+    bottom: 35%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.button-heading:hover {
+    background-color: transparent;
+    color: aqua;
+    border: 1px aqua solid;
+}
+
+@media screen and (max-width: 1200px) {
+    .page-heading {
+        font-size: 3rem;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+    }
+
+    .button-heading {
+        font-size: 0.8rem;
+        right: 46%;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .page-heading {
+        font-size: 3rem;
+    }
+
+    .sub-heading {
+        font-size: 1.8rem;
+        top: 50%;
+    }
+
+    .button-heading {
+        font-size: 0.8rem;
+        right: 46%;
+        bottom: 30%;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    .sub-heading {
+        font-size: 1.8rem;
+        top: 52%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .sub-heading {
+        font-size: 1.6rem;
+        top: 53%;
+    }
+
+    .button-heading {
+        font-size: 0.6rem;
+        right: 46%;
+        bottom: 28%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .page-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+        top: 50%;
+    }
+
+    .button-heading {
+        font-size: 0.6rem;
+        right: 46%;
+        bottom: 30%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    .page-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+        top: 52%;
+    }
+
+    .button-heading {
+        font-size: 0.6rem;
+        right: 46%;
+        bottom: 30%;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .page-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+        top: 54%;
+    }
+
+    .button-heading {
+        font-size: 0.4rem;
+        right: 46%;
+        bottom: 30%;
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .page-heading {
+        font-size: 1.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+        top: 54%;
+    }
+
+    .button-heading {
+        font-size: 0.4rem;
+        right: 46%;
+        bottom: 28%;
+        padding: 2px;
+    }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+
+
