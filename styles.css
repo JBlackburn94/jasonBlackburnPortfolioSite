@@ -63,6 +63,16 @@
     border-radius: 0;
 }
 
+.fade-in {
+    animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
 @media screen and (max-width: 1200px) {
     .page-heading {
         font-size: 3rem;
