@@ -11,28 +11,58 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
     <title>Jason Blackburn - Web Developer</title>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-none">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <section id="hero-section">
-      <div class="hero-container">
-        <div class="anim-border">
-          <!-- <video class="hero-video" autoplay="autoplay" loop muted>
-          <source src="media/video/4K_5.mp4" type="video/mp4" />
-        </video> -->
-          <h1 id="my-text" class="page-heading fade-in">Jason Blackburn</h1>
-          <h2 class="sub-heading fade-in">Front End Developer</h2>
-          <span class="fade-in">
-            <a class="button-heading hvr-pulse" href="#about-section"
-              >Find Out More
-            </a>
-          </span>
+      <div class="container-fluid">
+        <div class="col-sm-12">
+          <div class="row">
+            <h1 id="my-text" class="page-heading fade-in text-center">
+              Jason Blackburn
+            </h1>
+            <h2 class="sub-heading fade-in text-center">Front End Developer</h2>
+            <span class="fade-in">
+              <a class="button-heading hvr-pulse" href="#about-section"
+                >Find Out More
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </section>
@@ -43,7 +73,7 @@
           <div class="col-md-3">
             <h2>About Me</h2>
           </div>
-          <div class="col-md-9 leftside-text">
+          <div class="col-md-9">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               illo magni praesentium, aspernatur excepturi voluptatem laudantium
@@ -65,15 +95,45 @@
           </div>
         </div>
         <hr />
-        <div class="col-md-3 rightside-text">
-          <h2>My Skills</h2>
+        <div class="col-md-3">
+          <h2>Languages i speak</h2>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 skills-container">
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Jest</li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-html5 skills-item"></i>
+              <p>HTML5</p>
+            </li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-css3-alt skills-item"></i>
+              <p>CSS3</p>
+            </li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-square-js skills-item"></i>
+              <p>JavaScript</p>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="col-md-9 learning-container">
+          <h2>Currently learning</h2>
+          <ul>
+            <li class="rightside-text">
+              <i class="fa-brands fa-react skills-item"></i>
+              <p>REACT</p>
+            </li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-python skills-item"></i>
+              <p>Python</p>
+            </li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-angular skills-item"></i>
+              <p>Angular</p>
+            </li>
+            <li class="rightside-text">
+              <i class="fa-brands fa-node skills-item"></i>
+              <p>Node.js</p>
+            </li>
           </ul>
         </div>
       </div>
